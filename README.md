@@ -21,17 +21,17 @@ Configure `bro` service in `docker-compose.yml` to listen to different network i
 To run `docker-bro-elk`:
 
 ```bash
-./docker-compose up
+docker-compose up
 ```
 
 or in detached mode:
 
 ```bash
-./docker-compose up -d
+docker-compose up -d
 ```
 
 To stop `docker-bro-elk`, simply press `Ctrl+C` if running in foreground mode, or run the following command if running in detached mode:
 
 ```bash
-./docker-compose down
+docker-compose down
 ```
